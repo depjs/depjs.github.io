@@ -6,7 +6,8 @@
   "main": "index.js",
   "scripts": {
     "update": "git submodule update",
-    "build": "cp dep/README.md master"
+    "build": "cp dep/README.md master",
+    "deploy": "git subtree push --prefix master/ origin master"
   },
   "repository": {
     "type": "git",
