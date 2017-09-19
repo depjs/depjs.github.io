@@ -6,7 +6,7 @@
   "main": "index.js",
   "scripts": {
     "update": "git submodule update",
-    "build": "cp dep/README.md master; cp dep/.github/CONTRIBUTING.md master/.github; cp dep/LICENSE master",
+    "build": "cp dep/README.md master",
     "predeploy": "git push --delete origin master",
     "deploy": "git subtree push --prefix master/ origin master"
   },
