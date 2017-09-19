@@ -1,0 +1,22 @@
+{
+  "private": true,
+  "name": "depjs.github.io",
+  "version": "1.0.0",
+  "description": "A little Node.js dependency installer website",
+  "main": "index.js",
+  "scripts": {
+    "update": "git submodule update",
+    "build": "cp dep/README.md master"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/depjs/depjs.github.io.git"
+  },
+  "keywords": [],
+  "author": "Daijiro Wachi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/depjs/depjs.github.io/issues"
+  },
+  "homepage": "https://github.com/depjs/depjs.github.io#readme"
+}
